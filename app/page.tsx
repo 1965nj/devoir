@@ -19,24 +19,24 @@ export default function Home() {
         </div>
       </section>
       <section className='space-y-10 w-[600px] justify-center'>
-        <div className='ml-40 space-y-6 text-center bg-gray-900 border border-none w-60 rounded-xl h-60'>
+        <div className='ml-40 space-y-6 text-center bg-dark55 w-60 rounded-xl h-60'>
           <div className='ml-20'><img src='.\images\image 28.png' width={40 } height={40} /></div>
           <p className='text-2xl text-white'>Study With Me! </p>
           <p className='text-gray-600'>Study stream  via live-time with<br />people around world.</p>
           <button className='w-40 h-8 bg-green-500 border border-gray-900 rounded-full'>Join now</button>
         </div>
-        <div className='h-40 mr-10 space-y-6 text-2xl text-center bg-gray-900 border border-none rounded-xl w-110'>
+        <div className='pt-4 pb-8 pl-5 mr-10 space-y-6 text-2xl bg-dark55 rounded-xl w-110'>
           <p> Discover the community you want</p>
           <p className='text-gray-600'>From design, programming,to study stream</p>
-          <input type='text' placeholder='Discover communities' className='h-8 text-center bg-gray-800 rounded' />
+          <input type='text' placeholder='Discover communities' className='text-center rounded bg-dark55' />
         </div>
-        <div className='flex h-8 text-right bg-gray-900 border-gray-900 rounded w-60'>
+        <div className='flex items-center justify-center py-2 text-right rounded bg-dark55 w-60 gap-x-6'>
           <img src='.\images\Group 53.png' width={40 } height={40} />
-          Framer community
+          <p className='text-lg'>Framer community</p>
         </div>
-        <div className='flex h-8 text-right bg-gray-900 border-gray-900 rounded ml-60 w-60'>
+        <div className='flex items-center justify-center py-2 text-right rounded bg-dark55 ml-60 w-60 gap-x-6'>
           <img src='.\images\image 25.png' width={40 } height={40}/>
-          Behance community
+          <p className='text-lg'>Behance community</p>
         </div>
       </section>
     </main>
