@@ -25,7 +25,7 @@ export default function Home() {
           <p className='text-gray-600'>Study stream  via live-time with<br />people around world.</p>
           <button className='w-40 h-8 bg-green-500 border border-gray-900 rounded-full'>Join now</button>
         </div>
-        <div className='h-40 mr-10 space-y-6 text-center bg-gray-900 border border-none rounded-xl w-110'>
+        <div className='h-40 mr-10 space-y-6 text-2xl text-center bg-gray-900 border border-none rounded-xl w-110'>
           <p> Discover the community you want</p>
           <p className='text-gray-600'>From design, programming,to study stream</p>
           <input type='text' placeholder='Discover communities' className='h-8 text-center bg-gray-800 rounded' />
